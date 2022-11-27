@@ -7,7 +7,7 @@ import { MdVerified } from 'react-icons/md'
 
 const VideoSection = () => {
   return (
-    <div className='flex flex-col text-white justify-center items-center'>
+    <div className='flex flex-col text-white justify-center items-center gradient-bg-services'>
         <h1 className='text-4xl text-center p-4'>
             Featured Game
         </h1>

@@ -13,11 +13,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Orbitron', sans-serif;
 }
 
-p, span, li, ul {
+p, span, li, ul, button {
   font-family: 'Orbitron', sans-serif;
 }
 
@@ -100,6 +100,7 @@ p, span, li, ul {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 
 /* CSS */

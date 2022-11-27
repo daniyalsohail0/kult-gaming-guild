@@ -7,7 +7,7 @@ import { MdVerified } from 'react-icons/md'
 
 const IGO = () => {
   return (
-    <div className='flex flex-col justify-center items-center text-white'>
+    <div className='flex flex-col justify-center items-center text-white gradient-bg-transactions'>
         <h1 className='text-center text-4xl px-2 py-8'>Upcoming IGOs</h1>
         <div className='w-3/4 grid md:grid-cols-3 grid-cols-1 gap-4 p-4 place-items-center'>
             <div className='bg-gray-900 hover:bg-gray-700 py-2'>
