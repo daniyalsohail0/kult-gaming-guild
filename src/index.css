@@ -47,10 +47,7 @@ p, span, li, ul, button {
 }
 
 .gradient-bg-transactions {
-  background-color: #0f0e13;
-  background-image: 
-    radial-gradient(at 0% 100%, hsla(253,16%,7%,1) 0, transparent 50%), 
-    radial-gradient(at 50% 0%, hsla(225,39%,25%,1) 0, transparent 50%);
+  background-image: linear-gradient(to right top, #0f0e13, #181823, #1f2034, #242946, #273359);
 }
 
 .gradient-bg-footer {

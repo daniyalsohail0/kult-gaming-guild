@@ -7,11 +7,11 @@ import { MdVerified } from 'react-icons/md'
 
 const IGO = () => {
   return (
-    <div className='flex flex-col justify-center items-center text-white gradient-bg-transactions'>
+    <div className='flex flex-col justify-center items-center text-white h-auto py-8'>
         <h1 className='text-center text-4xl px-2 py-8'>Upcoming IGOs</h1>
         <div className='w-3/4 grid md:grid-cols-3 grid-cols-1 gap-4 p-4 place-items-center'>
-            <div className='bg-gray-900 hover:bg-gray-700 py-2'>
-                <img src='./Assets/game1.png' className='w-full md:w-[450px] h-52 px-2' alt='' />
+            <div className='bg-gray-900 hover:bg-gray-700 w-[350px] py-2'>
+                <img src='./Assets/game1.png' className='w-full h-52 px-2' alt='' />
                 <div className='flex flex-col justify-between items-center'>
                     <div className='flex gap-2 justify-center items-center p-3'>
                         <h1>
@@ -35,7 +35,7 @@ const IGO = () => {
                     </p>
                 </div>
             </div>
-            <div className='bg-gray-900 hover:bg-gray-700 py-2'>
+            <div className='bg-gray-900 hover:bg-gray-700 w-[350px] py-2'>
                 <img src='./Assets/game2.jpg' className='w-full h-52 px-2' alt='' />
                 <div className='flex flex-col justify-between items-center'>
                     <div className='flex gap-2 justify-center items-center p-3'>
@@ -60,7 +60,7 @@ const IGO = () => {
                     </p>
                 </div>
             </div>
-            <div className='bg-gray-900 hover:bg-gray-700 py-2'>
+            <div className='bg-gray-900 hover:bg-gray-700 w-[350px] py-2'>
                 <img src='./Assets/game3.jpg' className='w-full h-52 px-2' alt='' />
                 <div className='flex flex-col justify-between items-center'>
                     <div className='flex gap-2 justify-center items-center p-3'>
@@ -85,7 +85,7 @@ const IGO = () => {
                     </p>
                 </div>
             </div>
-            <div className='bg-gray-900 hover:bg-gray-700 py-2'>
+            <div className='bg-gray-900 hover:bg-gray-700 w-[350px] py-2'>
                 <img src='./Assets/game4.jpg' className='w-full h-52 px-2' alt='' />
                 <div className='flex flex-col justify-between items-center'>
                     <div className='flex gap-2 justify-center items-center p-3'>
@@ -110,7 +110,7 @@ const IGO = () => {
                     </p>
                 </div>
             </div>
-            <div className='bg-gray-900 hover:bg-gray-700 py-2'>
+            <div className='bg-gray-900 hover:bg-gray-700 w-[350px] py-2'>
                 <img src='./Assets/game5.jpg' className='w-full h-52 px-2' alt='' />
                 <div className='flex flex-col justify-between items-center'>
                     <div className='flex gap-2 justify-center items-center p-3'>
@@ -135,7 +135,7 @@ const IGO = () => {
                     </p>
                 </div>
             </div>
-            <div className='bg-gray-900 hover:bg-gray-700 py-2'>
+            <div className='bg-gray-900 hover:bg-gray-700 w-[350px] py-2'>
                 <img src='./Assets/game6.jpeg' className='w-full h-52 px-2' alt='' />
                 <div className='flex flex-col justify-between items-center'>
                     <div className='flex gap-2 justify-center items-center p-3'>

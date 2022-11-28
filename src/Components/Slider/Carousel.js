@@ -43,16 +43,16 @@ const Carousel = () => {
   };
 
   return (
-    <div className='flex flex-col justify-center items-center w-full p-3 text-white gradient-bg-services h-screen'>
+    <div className='flex flex-col justify-center items-center w-full p-3 text-white h-screen'>
       <h1 className='text-center text-4xl px-2 py-8'>
         Most Played Games
       </h1>
-      <div className='md:w-[800px] w-full'>
+      <div className='md:w-[1000px] w-full'>
         <Slider {...settings}>
           {images.map((img, idx) => (
             <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-              <div className='bg-gray-900 h-auto w-fit'>
-                <img src={img} alt={img} width='200' />
+              <div className='bg-gray-900 h-[400px] w-fit cursor-pointer'>
+                <img src={img} alt={img} width='200' className='pt-3' />
                 <div className='flex justify-between items-center p-3'>
                   <h3>
                     Moonknights Battlefield
@@ -64,6 +64,9 @@ const Carousel = () => {
                     </span>
                   </p>
                 </div>
+                <p className='p-3 text-xs'>
+                  Experience the new era of gaming with our latest collection of games. You can now click and play the best P2E games every. We are your one stop shop for all blockchain based games.
+                </p>
               </div>
             </div>
           ))}
